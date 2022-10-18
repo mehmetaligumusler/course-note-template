@@ -2,8 +2,8 @@
 site_name: RTEU Course Notes Templates
 docs_dir: docs  # Where to find the English markdown files
 site_dir: site  # Where to put the English HTML files
-site_author: 'Asst. Prof. Dr. Uğur CORUH'
-site_url: 'https://ucoruh.github.io/course-note-template/'
+site_author: 'Mehmet Ali GUMUSLER'
+site_url: 'https://mehmetaligumusler.github.io/course-note-template/'
 
 site_description_en: >-
     Course Notes Templates
@@ -13,11 +13,11 @@ site_description_tr: >-
 
 # Repository
 repo_name: 'GitHub'
-repo_url: 'https://github.com/ucoruh/course-note-template'
+repo_url: 'https://github.com/mehmetaligumusler/course-note-template'
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2022 Asst. Prof. Dr. Uğur CORUH
+copyright: Copyright © 2019 - 2022 Mehmet Ali GUMUSLER
 
 #theme:
 #    name: material
@@ -130,27 +130,9 @@ extra:
       analytics: Google Analytics
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ucoruh
-    - icon: fontawesome/brands/bitbucket
-      link: https://bitbucket.org/ucoruh/
-    - icon: fontawesome/regular/compass
-      link: https://www.scopus.com/authid/detail.uri?authorId=57218950743
-    - icon: fontawesome/regular/id-card
-      link: https://dblp.org/pid/230/0394.html
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/u/ucoruh/
-    - icon: fontawesome/brands/orcid
-      link: https://orcid.org/my-orcid?orcid=0000-0003-4193-8401
+      link: https://github.com/mehmetaligumusler
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/ugurcoruh/
-    - icon: fontawesome/regular/moon
-      link: https://publons.com/researcher/1540204/ugur-coruh/
-    - icon: fontawesome/brands/google
-      link: https://scholar.google.com/citations?user=KIU4ltMAAAAJ&hl=tr
-    - icon: fontawesome/regular/clipboard
-      link: https://avesis.erdogan.edu.tr/ugur.coruh
-    - icon: fontawesome/regular/user-circle
-      link: https://www.ugurcoruh.com/
+      link: https://www.linkedin.com/in/mehmet-ali-g%C3%BCm%C3%BC%C5%9Fler-6a7047192/
             
 # Extensions
 markdown_extensions:
@@ -218,22 +200,8 @@ plugins:
           Home: 'Ana Sayfa'
           Syllabus: 'Ders İzlencesi'
           Course Modules: 'Ders Modülleri'
-          Week-1 (Sample-1): 'Hafta-1 (Örnek-1)'
-          Week-2 (Sample-2): 'Hafta-2 (Örnek-1)'
-          Week-3 (Sample-3): 'Hafta-3 (Örnek-1)'
-          Week-4 (Sample-4): 'Hafta-4 (Örnek-1)'
-          Week-5 (Sample-5): 'Hafta-5 (Örnek-1)'
-          Week-6 (Sample-6): 'Hafta-6 (Örnek-1)'
-          Week-7 (Sample-7): 'Hafta-7 (Örnek-1)'
-          Week-8 (Midterm): 'Hafta-8 (Vize)'
-          Week-9 (Sample-9): 'Hafta-9 (Örnek-1)'
-          Week-10 (Sample-10): 'Hafta-10 (Örnek-1)'
-          Week-11 (Sample-11): 'Hafta-11 (Örnek-1)'
-          Week-12 (Sample-12): 'Hafta-12 (Örnek-1)'
-          Week-13 (Sample-13): 'Hafta-13 (Örnek-1)'
-          Week-14 (Sample-14): 'Hafta-14 (Örnek-1)'
-          Week-15 (Sample-15): 'Hafta-15 (Örnek-1)'
-          Week-16 (Final): 'Hafta-16 (Final)'
+          Week-1 (WSL): 'Hafta-1 (WSL)'
+          Week-2 (PowerToys): 'Hafta-2 (PowerToys)'
           License: 'Lisans'
           Resume: 'Özgeçmiş'
           Changelog: 'Geçmiş'
@@ -241,7 +209,7 @@ plugins:
   - minify:
       minify_html: false
   #- with-pdf:
-      #author: Dr. Uğur CORUH
+      #author: Mehmet Ali GUMUSLER
       #copyright: ANY TEXT
       #
       #cover: false
@@ -287,22 +255,7 @@ nav:
   - Home: index.md
   - Syllabus: syllabus/syllabus.md
   - Course Modules:
-    - Week-1 (Sample-1): week-1/week-1.md
-    - Week-2 (Sample-2): week-2/week-2.md
-    - Week-3 (Sample-3): week-3/week-3.md
-    - Week-4 (Sample-4): week-4/week-4.md
-    - Week-5 (Sample-5): week-5/week-5.md
-    - Week-6 (Sample-6): week-6/week-6.md
-    - Week-7 (Sample-7): week-7/week-7.md
-    - Week-8 (Midterm): week-8/week-8-midterm.md
-    - Week-9 (Sample-9): week-9/week-9.md
-    - Week-10 (Sample-10): week-10/week-10.md 
-    - Week-11 (Sample-11): week-11/week-11.md 
-    - Week-12 (Sample-12): week-12/week-12.md
-    - Week-13 (Sample-13): week-13/week-13.md
-    - Week-14 (Sample-14): week-14/week-14.md
-    - Week-15 (Sample-15): week-15/week-15.md
-    - Week-16 (Final): week-16/week-16-final.md
-  - License: license.md
+    - Week-1 (WSL): week-1/week-1.md
+    - Week-2 (PowerToys): week-2/week-2.md
   - Resume: resume/index.md
   - Changelog: changelog/index.md
